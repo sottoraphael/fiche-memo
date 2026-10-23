@@ -38,10 +38,12 @@ annuelle sert à situer ce qui a déjà été enseigné.
      exercices. En cas de doute, demander à l'enseignant quelle partie utiliser.
    - *Les objectifs* : si le cours les énonce, les reprendre mot pour mot, sans leur numéro ni
      le mot « Objectif », que le bandeau ajoute déjà. Sinon, signaler le manque à
-     l'enseignant et lui demander s'il veut des bandeaux d'objectif. S'il en veut, lui demander
-     ses objectifs ou lui en proposer, sous la forme « Je suis capable de… », un par partie de
-     la leçon. **Arrêt : attendre sa réponse.** Sans bandeaux, la fiche garde un seul tableau,
-     lignes dans l'ordre de la leçon.
+     l'enseignant et lui demander, dans le même message, s'il veut des bandeaux d'objectif et
+     s'il préfère donner ses objectifs ou valider ceux que l'on propose (forme « Je suis
+     capable de… », un par partie de la leçon, proposés tout de suite). Sans bandeaux, la fiche
+     garde un seul tableau, lignes dans l'ordre de la leçon.
+   - *Le programme* : s'il n'est pas fourni, demander les extraits utiles dans ce même message.
+   **Arrêt : un seul, attendre sa réponse.**
 1. **Relever les essentiels.** Un essentiel = un point de la leçon validée **qui est nouveau
    dans ce chapitre** ; si la leçon comporte des mots à trous, ils désignent ce que l'élève
    doit produire. Garder ce que le chapitre introduit : un mot, une définition, une date, une
@@ -81,7 +83,8 @@ Copier et suivre :
 - **Une ligne, un apport** : chaque ligne demande ce qu'aucune autre ne demande. Quand une
   ligne de méthode et la ligne d'exemple qui l'applique font restituer la même chose, garder
   la ligne d'exemple (*exemple :* « Mets work au prétérit » rend inutile « Quelle terminaison
-  ajoute-t-on à un verbe régulier au prétérit ? »).
+  ajoute-t-on à un verbe régulier au prétérit ? ») : l'essentiel n'a alors que sa ligne
+  d'exemple.
 - **Ligne d'exemple** après l'essentiel quand il s'applique à un cas concret (mot, phrase,
   document, situation, schéma) : la question demande de traiter le cas, la réponse donne le
   résultat. Les cas des exemples sont absents des exercices du cours fourni : un cas déjà
@@ -149,7 +152,8 @@ Exemple de ligne :
 
 Partir de `assets/gabarit-memo.tex`, qui fait foi : remplacer les marqueurs `{{...}}`, répéter
 le bandeau d'objectif et la ligne de tableau autant que nécessaire. Sans bandeaux, supprimer
-le bloc du bandeau. Le fichier contient uniquement le LaTeX ; les commentaires à l'enseignant
+le bloc du bandeau. En-tête : `{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}`, par exemple « 5e -
+Chapitre 3 - Les compléments circonstanciels ». Le fichier contient uniquement le LaTeX ; les commentaires à l'enseignant
 restent dans le chat.
 - **Un seul tableau `xltabular` pour tout le chapitre**, bandeaux inclus : il se coupe entre
   les pages et répète l'en-tête grâce à `\endhead`. `tabularx` basculerait entier sur la page
