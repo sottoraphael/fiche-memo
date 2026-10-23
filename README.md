@@ -11,9 +11,10 @@ mon propre espace de travail.
 
 ## 1. Ce qu'il vous faut
 
-- Un abonnement payant à Claude (Pro ou plus). Je n'ai pas essayé l'offre gratuite.
-- L'option « Exécution de code et création de fichiers » activée : Settings > Capabilities.
-  Sans elle, Claude ne peut pas fabriquer le PDF.
+- Un compte Claude, même gratuit (je ne l'ai utilisée qu'avec un abonnement payant).
+- L'option « Exécution de code et création de fichiers », activée par défaut. Si la skill
+  apparaît grisée, vérifiez cette option dans les paramètres : sans elle, Claude ne peut pas
+  fabriquer le PDF.
 
 Vous n'avez rien à installer sur votre ordinateur. Claude met en page la fiche avec LaTeX (un
 logiciel de mise en page), qu'il installe lui-même dans son propre espace de travail.
@@ -23,12 +24,9 @@ logiciel de mise en page), qu'il installe lui-même dans son propre espace de tr
 1. Téléchargez le fichier `fiche-memo-maths.zip` dans la rubrique
    [Releases](https://github.com/sottoraphael/fiche-memo-maths/releases/latest) de cette
    page. Ne le décompressez pas.
-2. Dans Claude (site ou application), ouvrez Customize > Skills.
-3. Cliquez sur « + », puis « Create skill », puis « Upload a skill », et choisissez le zip.
+2. Dans Claude (site ou application), ouvrez Personnaliser, puis Skills.
+3. Téléversez le zip.
 4. Activez la skill dans la liste.
-
-Les intitulés des menus sont ceux de l'aide d'Anthropic, en anglais ; ils peuvent varier
-selon la langue et la version de l'application.
 
 ## 3. Faire une fiche
 
