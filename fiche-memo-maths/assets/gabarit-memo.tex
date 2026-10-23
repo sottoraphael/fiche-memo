@@ -1,0 +1,63 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{enumitem}
+% Puces pleines au premier niveau, vides au second : jamais de tiret, confondu avec un signe moins.
+\frenchsetup{StandardItemLabels=true}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=$\circ$}
+\usepackage[table]{xcolor}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{fontawesome5}
+\usepackage{tikz}
+
+\geometry{hmargin=0.8cm, vmargin=1.5cm}
+
+% Commande 6 cases d'auto-évaluation sur 2 lignes
+\newcommand{\caseseval}{%
+    \centering
+    $\square\;\square\;\square$ \\
+    \vspace{2mm}
+    $\square\;\square\;\square$
+}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+
+\begin{document}
+
+\begin{center}
+    \LARGE \textbf{\textcolor{orange!80!black}{\faBookOpen} \quad FICHE MÉMO}\\[0.5em]
+    \large \textbf{{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}}
+\end{center}
+
+\vspace{0.2cm}
+
+% arraystretch : 2.2 par défaut ; 1.8 si la fiche gagne à être plus dense.
+% Le tableau est continu : les objectifs s'enchainent et la coupure de page est automatique.
+\renewcommand{\arraystretch}{2.2}
+\begin{center}
+    \begin{xltabular}{\dimexpr\textwidth-5pt\relax}{|m{2cm}|X|X|X|}
+        \hline
+        \rowcolor{gray!10}
+        \centering \scriptsize \textbf{\textcolor{red}{\faTimes}/\textcolor{green!60!black}{\faCheck} Auto-évaluation} &
+        \centering \textbf{\textcolor{blue!70!black}{\faQuestionCircle} Question} &
+        \centering \textbf{\textcolor{red!70!black}{\faBullseye} Réponse} &
+        \centering \textbf{\textcolor{orange!90!black}{\faLightbulb} Stratégie / Conseil} \arraybackslash \\
+        \hline
+        \endhead
+
+        % --- BLOC OBJECTIF (à répéter pour chaque objectif du cours) ---
+        \multicolumn{4}{|c|}{\cellcolor{blue!10}\parbox{\dimexpr\textwidth-20pt\relax}{\centering \textit{\textbf{Objectif : {{INTITULÉ_DE_L_OBJECTIF}}}}}} \\
+        \hline
+
+        % --- LIGNE (à répéter pour chaque question atomique) ---
+        \caseseval & {{QUESTION_ATOMIQUE_OU_TIKZ}} & {{REPONSE_COURTE}} & \footnotesize \textit{{{FEEDBACK_PROCESSUS}}} \\ \hline
+
+    \end{xltabular}
+\end{center}
+\end{document}
