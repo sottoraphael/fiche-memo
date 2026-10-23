@@ -14,7 +14,6 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{textcomp}
-\usepackage{fontawesome5}
 \usepackage{tikz}
 
 \geometry{hmargin=0.8cm, vmargin=1.5cm}
@@ -31,7 +30,7 @@
 \begin{document}
 
 \begin{center}
-    \LARGE \textbf{\textcolor{orange!80!black}{\faBookOpen} \quad FICHE MÉMO}\\[0.5em]
+    \LARGE \textbf{FICHE MÉMO}\\[0.5em]
     \large \textbf{{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}}
 \end{center}
 
@@ -44,10 +43,10 @@
     \begin{xltabular}{\dimexpr\textwidth-5pt\relax}{|m{2cm}|X|X|X|}
         \hline
         \rowcolor{gray!10}
-        \centering \scriptsize \textbf{\textcolor{red}{\faTimes}/\textcolor{green!60!black}{\faCheck} Auto-évaluation} &
-        \centering \textbf{\textcolor{blue!70!black}{\faQuestionCircle} Question} &
-        \centering \textbf{\textcolor{red!70!black}{\faBullseye} Réponse} &
-        \centering \textbf{\textcolor{orange!90!black}{\faLightbulb} Stratégie / Conseil} \arraybackslash \\
+        \centering \scriptsize \textbf{Auto-évaluation} &
+        \centering \textbf{Question} &
+        \centering \textbf{Réponse} &
+        \centering \textbf{Stratégie / Conseil} \arraybackslash \\
         \hline
         \endhead
 
@@ -56,7 +55,7 @@
         \hline
 
         % --- LIGNE (à répéter pour chaque question atomique) ---
-        \caseseval & {{QUESTION_ATOMIQUE_OU_TIKZ}} & {{REPONSE_COURTE}} & \footnotesize \textit{{{FEEDBACK_PROCESSUS}}} \\ \hline
+        \caseseval & {{QUESTION_ATOMIQUE_OU_TIKZ}} & {{REPONSE_COURTE}} & \footnotesize \textit{{{CONSEIL}}} \\ \hline
 
     \end{xltabular}
 \end{center}

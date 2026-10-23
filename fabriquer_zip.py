@@ -1,15 +1,15 @@
-"""Fabrique dist/fiche-memo-maths.zip, la pièce jointe de chaque version publiée.
+"""Fabrique dist/fiche-memo.zip, la pièce jointe de chaque version publiée.
 
 Usage : python fabriquer_zip.py
-Le zip contient le dossier de la skill au premier niveau (fiche-memo-maths/SKILL.md),
+Le zip contient le dossier de la skill au premier niveau (fiche-memo/SKILL.md),
 forme exigée par Claude : https://claude.com/docs/skills/how-to
 """
 import zipfile
 from pathlib import Path
 
 ICI = Path(__file__).parent
-SKILL = ICI / "fiche-memo-maths"
-SORTIE = ICI / "dist" / "fiche-memo-maths.zip"
+SKILL = ICI / "fiche-memo"
+SORTIE = ICI / "dist" / "fiche-memo.zip"
 
 fichiers = sorted(
     f for f in SKILL.rglob("*")
@@ -24,7 +24,7 @@ with zipfile.ZipFile(SORTIE, "w", zipfile.ZIP_DEFLATED) as z:
 
 with zipfile.ZipFile(SORTIE) as z:
     noms = z.namelist()
-assert all(n.startswith("fiche-memo-maths/") for n in noms), noms
+assert all(n.startswith("fiche-memo/") for n in noms), noms
 for n in noms:
     print(n)
 print(f"{SORTIE.name} : {len(noms)} fichiers, {SORTIE.stat().st_size // 1024} Ko")

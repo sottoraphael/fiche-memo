@@ -1,13 +1,15 @@
-# Fiche mémo de mathématiques (collège) : une skill pour Claude
+# Fiche mémo : une skill pour Claude
 
-Cette skill transforme la leçon d'un chapitre de mathématiques de collège (6e à 3e) en fiche
-mémo : un tableau de questions courtes, avec pour chacune la réponse, un conseil de méthode et
-six cases où l'élève note s'il a su répondre. La fiche sort en PDF, prête à imprimer en noir
+Cette skill transforme la leçon d'un chapitre en fiche mémo, dans toute matière du collège et
+du lycée : un tableau de questions courtes, avec pour chacune la réponse, un conseil de méthode
+et six cases où l'élève note s'il a su répondre. La fiche sort en PDF, prête à imprimer en noir
 et blanc.
 
 Une skill est un ensemble de consignes écrites une fois, que Claude suit ensuite à chaque
-demande. Celle-ci est celle que j'utilise pour mes classes, adaptée pour fonctionner hors de
-mon propre espace de travail.
+demande. Celle-ci vient de celle que j'utilise pour mes classes, adaptée pour fonctionner hors
+de mon propre espace de travail et dans toutes les matières. Je l'ai essayée sur des cours
+inventés d'histoire (4e) et de SVT (seconde) ; aucun enseignant de ces matières ne l'a encore
+relue.
 
 ## 1. Ce qu'il vous faut
 
@@ -21,8 +23,8 @@ logiciel de mise en page), qu'il installe lui-même dans son propre espace de tr
 
 ## 2. Installer la skill
 
-1. Téléchargez le fichier `fiche-memo-maths.zip` dans la rubrique
-   [Releases](https://github.com/sottoraphael/fiche-memo-maths/releases/latest) de cette
+1. Téléchargez le fichier `fiche-memo.zip` dans la rubrique
+   [Releases](https://github.com/sottoraphael/fiche-memo/releases/latest) de cette
    page. Ne le décompressez pas.
 2. Dans Claude (site ou application), ouvrez Personnaliser, puis Skills.
 3. Téléversez le zip.
@@ -61,10 +63,9 @@ ici : j'en ai repris les règles avec mes propres mots.
 
 ## 6. Contenu du dossier
 
-- `fiche-memo-maths/SKILL.md` : les consignes que suit Claude.
-- `fiche-memo-maths/assets/` : le modèle de la fiche et un exemple complet (3e, calcul
-  littéral).
-- `fiche-memo-maths/scripts/` : le contrôle que Claude lance sur chaque fiche avant de la
+- `fiche-memo/SKILL.md` : les consignes que suit Claude.
+- `fiche-memo/assets/` : le modèle de mise en page de la fiche.
+- `fiche-memo/scripts/` : le contrôle que Claude lance sur chaque fiche avant de la
   mettre en page.
 
 ## 7. Licence

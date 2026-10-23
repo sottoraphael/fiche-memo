@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Contrôle statique d'une fiche mémo (skill fiche-memo-maths).
+"""Contrôle statique d'une fiche mémo (skill fiche-memo).
 
 Usage : python scripts/verifier_memo.py chemin/fichier.tex
 Sortie : une ligne par constat, préfixée ERREUR ou ATTENTION ; code de retour 1 si ERREUR.
@@ -15,7 +15,8 @@ def sans_commentaires(texte):
 
 
 def verifier(chemin):
-    t = sans_commentaires((brut_complet := Path(chemin).read_text(encoding="utf-8")))
+    brut_complet = Path(chemin).read_text(encoding="utf-8")
+    t = sans_commentaires(brut_complet)
     corps = t.split(r"\begin{document}", 1)[-1]
     erreurs, alertes = [], []
 
@@ -71,7 +72,14 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print(__doc__)
         sys.exit(2)
-    erreurs, alertes = verifier(sys.argv[1])
+    try:
+        erreurs, alertes = verifier(sys.argv[1])
+    except FileNotFoundError:
+        print(f"ERREUR : fichier introuvable : {sys.argv[1]}")
+        sys.exit(2)
+    except UnicodeDecodeError:
+        print(f"ERREUR : {sys.argv[1]} n'est pas encodé en UTF-8 : l'enregistrer en UTF-8.")
+        sys.exit(2)
     for e in erreurs:
         print("ERREUR :", e)
     for a in alertes:
