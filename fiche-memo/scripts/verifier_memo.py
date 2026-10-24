@@ -26,18 +26,21 @@ def verifier(chemin):
         erreurs.append("\\og ou \\fg présent : utiliser ``...''")
     if re.search(r"\\euro\b|eurosym", t):
         erreurs.append("\\euro ou eurosym présent : utiliser \\texteuro{}")
-    if "{{" in t:
+    if re.search(r"\{\{[A-ZÉ_]+\}\}", t):
         erreurs.append("marqueur {{...}} du gabarit non remplacé")
     if r"\clearpage" in corps or r"\newpage" in corps:
         erreurs.append("saut de page : les objectifs s'enchaînent dans un seul tableau")
 
     # Impression noir et blanc : une information portée par une couleur disparaît.
-    for m in re.finditer(r"\b(en|de couleur) (bleu|rouge|vert|jaune|orange|violet|rose)s?\b", corps):
+    for m in re.finditer(r"\b(en|de couleur) (bleue?|rouge|verte?|jaune|orange|violette?|rose)s?\b", corps):
         alertes.append(f"information portée par une couleur, à remplacer (noir et blanc) : « {m.group(0)} »")
     # Puces pleines puis vides, réglées dans le préambule du gabarit.
-    if r"\frenchsetup{StandardItemLabels=true}" not in brut_complet:
+    if r"\frenchsetup{StandardItemLabels=true}" not in t:
         erreurs.append("réglage des puces absent du préambule : recopier le préambule du gabarit")
 
+    # Paquet de pictogrammes : alourdit l'installation (SKILL.md, « Pas d'icônes »).
+    if re.search(r"fontawesome|\\fa[A-Z]", t):
+        erreurs.append("icônes (fontawesome) : les retirer, elles alourdissent l'installation")
     n_xl = len(re.findall(r"\\begin\{xltabular\}", corps))
     if n_xl != 1:
         erreurs.append(f"{n_xl} tableau(x) xltabular : il en faut un seul pour tout le chapitre")

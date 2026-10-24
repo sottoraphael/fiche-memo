@@ -119,8 +119,8 @@ Copier et suivre :
   sujet du verbe. » Ton neutre, centré sur le geste, à la place des jugements (« Bravo »,
   « Facile »). Terminer souvent par une question de contrôle (« As-tu vérifié que… ? »).
 - **Conseil concret, au niveau de l'élève** : un geste qu'un élève du niveau visé peut faire
-  tout de suite, avec ses mots. *Exemple (6e) :* « Demande-toi qui fait l'action : c'est le
-  sujet. As-tu vérifié que le verbe s'accorde avec lui ? », plutôt que « Identifie le groupe
+  tout de suite, avec ses mots. *Exemple (6e) :* « Encadre le groupe par « c'est… qui » : si la
+  phrase reste correcte, c'est le sujet. As-tu vérifié que le verbe s'accorde avec lui ? », plutôt que « Identifie le groupe
   nominal sujet par pronominalisation », trop abstrait pour un élève de 6e.
 - **Mot juste** : le vocabulaire précis de la discipline plutôt qu'un mot vague (« le sucre se
   dissout », plutôt que « le sucre disparaît »), et le cas limite quand il compte.
@@ -145,7 +145,7 @@ Exemple de ligne :
     \draw (0.3,0.1) circle (0.5);
     \draw (0.6,0.4) -- (2.6,1.2) node[right]{$A$};
     \draw (-1.9,-0.4) -- (-2.8,-1.2) node[left]{$B$};
-\end{tikzpicture} \\ \vspace{1mm} \small Sur ce schéma de cellule animale, nomme la structure $A$. & Le noyau. & \footnotesize \textit{Cherche la structure qui contient l'information génétique. As-tu vérifié qu'elle est à l'intérieur de la cellule ?} \\ \hline
+\end{tikzpicture} \\ \vspace{1mm} \small Sur ce schéma de cellule animale, nomme la structure $A$. & Le noyau. & \footnotesize \textit{Suis le trait jusqu'à son extrémité. As-tu vérifié qu'il ne s'arrête pas sur la membrane ?} \\ \hline
 ```
 
 ## LaTeX
