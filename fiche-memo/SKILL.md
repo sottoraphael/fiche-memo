@@ -69,7 +69,8 @@ annuelle sert à situer ce qui a déjà été enseigné.
 1. **Relever les essentiels.** Un essentiel = un point de la leçon validée **qui est nouveau
    dans ce chapitre** ; si la leçon comporte des mots à trous, ils désignent ce que l'élève
    doit produire. Garder ce que le chapitre introduit : un mot, une définition, une date, une
-   règle, une condition, une procédure. Laisser à la leçon ce qu'elle rappelle comme outil :
+   règle, une condition, une procédure. Une liste de la leçon (moyens, acteurs, étapes) est un
+   seul essentiel : elle donne une ligne d'énumération, pas une ligne par élément. Laisser à la leçon ce qu'elle rappelle comme outil :
    une notion d'un niveau antérieur ou d'un chapitre déjà traité, vérifiée dans le programme du
    niveau précédent et dans la progression ; sans ces documents, dans ce que le cours présente
    comme un rappel, et en cas de doute en demandant à l'enseignant. La fiche reste ainsi courte
@@ -82,7 +83,9 @@ annuelle sert à situer ce qui a déjà été enseigné.
    écarté, la source (ou la mention du cours) qui montre qu'il est déjà enseigné. Un essentiel
    de vocabulaire sans cas à montrer est signalé : l'enseignant tranche. Signaler aussi les
    points de la leçon qui paraissent imprécis et les questions dont la réponse dépend d'une
-   nuance. Dire à l'enseignant, en une phrase, que cette liste doit être validée par quelqu'un
+   nuance. Lui demander aussi, en option, les erreurs que ses élèves font souvent sur ces
+   essentiels : elles nourrissent la colonne Conseil ; sans réponse, la fiche n'en écrit aucune.
+   Dire à l'enseignant, en une phrase, que cette liste doit être validée par quelqu'un
    qui maîtrise la matière. **Arrêt : attendre la validation**, il retire ou ajoute des
    essentiels.
 3. **Rédiger** les questions, réponses et conseils des essentiels validés.
@@ -101,15 +104,21 @@ Copier et suivre :
 ## Règles de rédaction
 
 - **Une ligne = une notion**, réponse lisible et vérifiable en moins de 15 à 20 mots.
-- **Volume** : viser 5 à 6 lignes par objectif (par partie de la leçon, sans bandeaux), lignes
+- **Volume** : 6 lignes au plus par objectif (par partie de la leçon, sans bandeaux), lignes
   d'exemple comprises, et au moins une ligne par essentiel ; chaque question porte sur un
-  essentiel validé. Au-delà de 6 lignes pour un objectif, le signaler à l'enseignant avec la
-  raison : une fiche trop longue n'est pas relue.
+  essentiel validé. Au-delà de 6 lignes pour un objectif, ou d'environ 20 lignes pour la fiche,
+  le signaler à l'enseignant à l'étape 2 avec la raison et les lignes qu'on pourrait retirer :
+  une fiche trop longue n'est pas relue.
 - **Une ligne, un apport** : chaque ligne demande ce qu'aucune autre ne demande. Quand une
   ligne de méthode et la ligne d'exemple qui l'applique font restituer la même chose, garder
   la ligne d'exemple (*exemple :* « Mets work au prétérit » rend inutile « Quelle terminaison
   ajoute-t-on à un verbe régulier au prétérit ? ») : l'essentiel n'a alors que sa ligne
   d'exemple.
+- **Ce qui mérite une ligne** : ce que l'élève devra restituer pour atteindre l'objectif (une
+  définition, un fait, une date, un acteur, une étape, une règle). *Cas à écarter :* faire
+  retrouver l'élément qui manque à une liste de la leçon (« Solide, liquide et… ? »), une
+  liste à compléter mot pour mot, une réponse réduite à un adjectif isolé (« Comment est la
+  croissance ? » → « Rapide. ») : l'élève récite la forme du cours sans retenir la notion.
 - **Ligne d'exemple** après l'essentiel quand il s'applique à un cas concret (mot, phrase,
   document, situation, schéma) : la question demande de traiter le cas, la réponse donne le
   résultat. Les cas des exemples sont absents des exercices du cours fourni : un cas déjà
@@ -130,7 +139,10 @@ Copier et suivre :
 - **Énumération : des noms seuls.** « Quels sont les trois états de la matière ? » → solide,
   liquide, gazeux. Le rôle ou la propriété de chaque élément fait sa propre ligne (« Dans quel
   état la matière a-t-elle une forme propre ? » → solide). *Cas à écarter :* une réponse qui
-  associe chaque élément à sa propriété.
+  associe chaque élément à sa propriété. Quand la question en fait citer quelques-uns parmi une
+  liste plus longue de la leçon, la réponse donne la liste entière (« Cite deux énergies
+  renouvelables. » → « Deux parmi : le soleil, le vent, l'eau, la biomasse. ») : un élève qui
+  cite un autre élément juste ne se compte pas faux.
 - **Types de questions** : sémantique (« Qu'est-ce qu'un… ? », « Comment appelle-t-on… ? »),
   procédurale (« Comment forme-t-on… ? », « Par quelle étape commence-t-on pour… ? »),
   discrimination (« Ce verbe est-il au passé simple ou à l'imparfait ? »), complétion (phrase
@@ -140,12 +152,29 @@ Copier et suivre :
 - **Situation nommée** : la question dit sur quoi l'élève est interrogé. « Dans quel cas
   emploie-t-on le prétérit ? », plutôt que « Que veut-on dire quand on emploie le prétérit ? »,
   qui fait deviner le registre de la réponse.
-- **Colonne « Stratégie / Conseil »** : la méthode, la stratégie mentale ou l'erreur fréquente
-  (« L'erreur classique est de confondre méridien et parallèle. »), jamais la réponse. *Cas à
-  écarter :* « La réponse est 1789 », « Le prétérit de go est went », ou la démarche déroulée
-  pas à pas : l'élève n'a plus rien à rappeler. Écrire le geste à faire : « Cherche d'abord le
-  sujet du verbe. » Ton neutre, centré sur le geste, à la place des jugements (« Bravo »,
-  « Facile »). Terminer souvent par une question de contrôle (« As-tu vérifié que… ? »).
+- **Colonne « Stratégie / Conseil »**, dans cet ordre :
+  1. la méthode, le critère ou la procédure que donne la leçon (« Cherche d'abord le sujet du
+     verbe. ») ;
+  2. sinon, une erreur fréquente donnée par l'enseignant à l'étape 2 (« L'erreur classique est
+     de confondre méridien et parallèle. »), jamais une erreur que Claude suppose ;
+  3. sinon, un indice de rappel : un chemin vers la réponse, tiré de la leçon (un ordre, un
+     parcours, une opposition), qui ne suffit pas à qui n'a rien appris (pour les étapes du cycle
+     de l'eau : « Suis l'eau de la mer jusqu'au nuage, puis jusqu'au sol. ») ;
+  4. sinon, la case reste vide : un conseil de remplissage fait lire la colonne pour rien. La
+     case vide est l'exception : avant de la laisser vide, chercher dans la leçon un ordre, un
+     parcours ou une opposition qui serve d'indice.
+  Jamais la réponse. *Cas à écarter :* « La réponse est 1789 », « Le prétérit de go est went »,
+  la démarche déroulée pas à pas (l'élève n'a plus rien à rappeler) ; un renvoi au cours
+  (« Relis la leçon », « Récite la phrase du cours ») : l'élève répond sans son cours ; la même
+  question de contrôle d'une ligne à l'autre. Écrire le geste à faire, ton neutre, à la place
+  des jugements (« Bravo », « Facile »). Une question de contrôle (« As-tu vérifié que… ? »)
+  peut terminer le conseil quand elle vise une partie de la réponse qu'on oublie souvent.
+- **Test du conseil** : un élève qui ne sait pas la réponse ne la trouve pas avec le seul
+  conseil. *Cas à écarter :* un indice qui contient ou désigne la réponse (« Cherche le nom du
+  fleuve dans le nom de la ville », « Pense à un animal qui vole »). La question de contrôle
+  porte sur le contenu de la réponse (« As-tu cité les trois ordres ? »), pas sur sa forme
+  (majuscules, accents, nombre de chiffres), sauf quand l'orthographe est ce que la ligne fait
+  apprendre.
 - **Conseil fidèle à la leçon** : un critère pour trier deux notions vient de leurs définitions
   dans la leçon, jamais d'un indice inventé. *Exemple :* pour « météo ou climat ? », la durée
   d'observation que donne la définition, plutôt que « Est-ce en été ou en hiver ? ». Avant de
@@ -231,9 +260,12 @@ restent dans le chat.
    objectif et non sur le fichier entier.
 4. Relire ce que le script ne voit pas : chaque essentiel validé a sa question et sa ligne
    d'exemple prévue ; chaque ligne porte sur ce que le chapitre introduit ; 6 lignes par
-   objectif au plus, ou un dépassement signalé ; une notion et un apport par ligne ; des
-   questions qui font produire ; énumérations de noms seuls ; conseil qui donne le chemin,
-   concret, au vocabulaire du niveau ; mot juste avec son cas limite ; exemples sur des cas
+   objectif au plus et 20 environ pour la fiche, ou un dépassement signalé ; une notion et un
+   apport par ligne ; des questions qui font produire, sans élément manquant à retrouver ni
+   adjectif isolé ; énumérations de noms seuls, avec la liste entière quand on en cite
+   quelques-uns ; conseil qui ne donne pas la réponse et dont le contrôle porte sur le contenu ;
+   conseil pris dans l'ordre méthode, erreur donnée par l'enseignant, indice, case vide, sans
+   renvoi au cours ni contrôle répété ; conseil qui donne le chemin, concret, au vocabulaire du niveau ; mot juste avec son cas limite ; exemples sur des cas
    neufs par rapport au cours ; bandeaux mot pour mot ; notations de la discipline ; chaque
    réponse et chaque conseil rattachables à une phrase de la leçon, sans mot ajouté ; chaque
    critère de conseil essayé sur tous les exemples de la leçon.

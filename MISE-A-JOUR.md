@@ -43,6 +43,15 @@ ATTENTION, pas en ERREUR ; élision « Je suis capable d' » acceptée.
    définitions, essayé sur chaque exemple) ; validation de la liste par quelqu'un de la
    matière ; relecture finale étendue.
 
+10. Questions utiles et conseils (version 1.5, après deux essais en histoire, 2026-10-25) :
+   une liste de la leçon = une ligne d'énumération ; 6 lignes au plus par objectif et 20
+   environ pour la fiche ; « Ce qui mérite une ligne » (pas d'élément manquant à retrouver ni
+   d'adjectif isolé) ; énumération « parmi » avec la liste entière ; « Test du conseil » ;
+   colonne Conseil dans l'ordre méthode de la leçon, erreur fréquente donnée par l'enseignant
+   (demandée en option à l'étape 2), indice de rappel, case vide en dernier recours (décision
+   de Raphaël) ;
+   relecture finale étendue.
+
 ## Marche à suivre (à demander à Claude en une fois)
 
 1. Comparer la version de Raphaël et ce dossier ; reporter ses améliorations en gardant les
