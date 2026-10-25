@@ -32,6 +32,11 @@ Dans `fiche-memo/SKILL.md` :
 Dans `fiche-memo/scripts/verifier_memo.py` : bandeau absent ou hors forme signalé en
 ATTENTION, pas en ERREUR ; élision « Je suis capable d' » acceptée.
 
+8. Programme cherché par Claude si l'enseignant ne l'a pas ou ne veut pas le fournir
+   (version 1.3, décision de Raphaël du 2026-10-25) : texte officiel, adresse de chaque
+   extrait, sources de seconde main signalées, jamais de citation de mémoire ; questions de
+   l'étape 0 numérotées, une réponse par question.
+
 ## Marche à suivre (à demander à Claude en une fois)
 
 1. Comparer la version de Raphaël et ce dossier ; reporter ses améliorations en gardant les

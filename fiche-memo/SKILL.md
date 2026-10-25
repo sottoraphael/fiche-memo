@@ -16,8 +16,18 @@ les transposer à celle du cours.
 
 S'appuyer sur des sources qui font autorité (programme officiel du niveau, documents
 d'accompagnement), citées par extrait littéral ; écrire « Non rapporté » quand la source ne dit
-rien, et contrôler chaque définition. Si l'enseignant n'a pas fourni le programme, lui demander
-d'abord les extraits utiles. Si les instructions de son projet contiennent d'autres règles de
+rien, et contrôler chaque définition. Le programme vient d'abord de l'enseignant : s'il ne l'a
+pas fourni, lui demander les extraits utiles. S'il ne les a pas ou ne veut pas les fournir, les
+chercher, à trois conditions :
+- chercher le texte officiel (programme publié au Bulletin officiel) avec la recherche web, et
+  donner l'adresse de chaque extrait cité ;
+- signaler toute source de seconde main (fiche d'accompagnement, site d'académie, synthèse)
+  qui n'est pas le texte officiel ;
+- ne jamais citer un programme de mémoire : sans recherche web, ou si le texte officiel ne
+  s'ouvre pas, le dire à l'enseignant, écrire « Non rapporté » et lui laisser décider de ce
+  qui est déjà enseigné.
+
+Si les instructions de son projet contiennent d'autres règles de
 rigueur, elles s'appliquent aussi.
 
 Propre à ce document : chaque réponse sera apprise par cœur, donc une approximation s'y fixe
@@ -38,12 +48,15 @@ annuelle sert à situer ce qui a déjà été enseigné.
      exercices. En cas de doute, demander à l'enseignant quelle partie utiliser.
    - *Les objectifs* : si le cours les énonce, les reprendre mot pour mot, sans leur numéro ni
      le mot « Objectif », que le bandeau ajoute déjà. Sinon, signaler le manque à
-     l'enseignant et lui demander, dans le même message, s'il veut des bandeaux d'objectif et
-     s'il préfère donner ses objectifs ou valider ceux que l'on propose (forme « Je suis
+     l'enseignant et lui demander s'il veut des bandeaux d'objectif, puis s'il préfère donner
+     ses objectifs ou valider ceux que l'on propose (forme « Je suis
      capable de… », un par partie de la leçon, proposés tout de suite). Sans bandeaux, la fiche
      garde un seul tableau, lignes dans l'ordre de la leçon.
-   - *Le programme* : s'il n'est pas fourni, demander les extraits utiles dans ce même message.
-   **Arrêt : un seul, attendre sa réponse.**
+   - *Le programme* : s'il n'est pas fourni, demander à l'enseignant s'il peut donner les
+     extraits utiles, ou s'il préfère qu'on les cherche (voir « Sources et rigueur »).
+   Ces questions partent dans un seul message, **numérotées, une réponse attendue pour
+   chacune** ; une réponse qui ne dit pas à quelle question elle répond (« oui ») se fait
+   préciser. **Arrêt : attendre sa réponse.**
 1. **Relever les essentiels.** Un essentiel = un point de la leçon validée **qui est nouveau
    dans ce chapitre** ; si la leçon comporte des mots à trous, ils désignent ce que l'élève
    doit produire. Garder ce que le chapitre introduit : un mot, une définition, une date, une
