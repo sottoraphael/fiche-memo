@@ -37,6 +37,12 @@ ATTENTION, pas en ERREUR ; élision « Je suis capable d' » acceptée.
    extrait, sources de seconde main signalées, jamais de citation de mémoire ; questions de
    l'étape 0 numérotées, une réponse par question.
 
+9. « La leçon fait foi » (version 1.4, après le retour d'une enseignante de SVT, 2026-10-25) :
+   réponses dans les termes de la leçon, jamais de correction de la leçon, aucun critère ni
+   lien hors leçon ; détails des cas concrets ; « Conseil fidèle à la leçon » (critère tiré des
+   définitions, essayé sur chaque exemple) ; validation de la liste par quelqu'un de la
+   matière ; relecture finale étendue.
+
 ## Marche à suivre (à demander à Claude en une fois)
 
 1. Comparer la version de Raphaël et ce dossier ; reporter ses améliorations en gardant les

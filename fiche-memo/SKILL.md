@@ -36,6 +36,15 @@ mammifère allaite ses petits », plutôt que « un mammifère donne naissance �
 vivants », que l'ornithorynque, qui pond des œufs, contredit. La même exigence vaut pour la
 colonne « Stratégie / Conseil ».
 
+**La leçon fait foi.** La fiche fait apprendre la leçon de l'enseignant, pas ce que Claude sait
+du sujet :
+- les réponses reprennent les termes de la leçon, sans mot ni nuance ajoutés (un adverbe
+  comme « normalement » ou « souvent » change le sens d'une définition) ;
+- la fiche ne corrige jamais la leçon : un point qui paraît faux, daté ou imprécis se signale à
+  l'enseignant à l'étape 2, et c'est lui qui tranche ;
+- aucune notion, aucun critère, aucun lien entre deux notions qui ne figure pas dans la leçon,
+  y compris dans les conseils et dans les cas concrets.
+
 ## Déroulé
 
 Entrée : le cours du chapitre fourni par l'enseignant. Si elle est fournie, la progression
@@ -71,8 +80,11 @@ annuelle sert à situer ce qui a déjà été enseigné.
 2. **Présenter la liste à l'enseignant** : une ligne par essentiel, groupée par objectif s'il y
    en a, avec pour chacun la ligne d'exemple prévue ou non, et, pour tout point de la leçon
    écarté, la source (ou la mention du cours) qui montre qu'il est déjà enseigné. Un essentiel
-   de vocabulaire sans cas à montrer est signalé : l'enseignant tranche. **Arrêt : attendre la
-   validation**, il retire ou ajoute des essentiels.
+   de vocabulaire sans cas à montrer est signalé : l'enseignant tranche. Signaler aussi les
+   points de la leçon qui paraissent imprécis et les questions dont la réponse dépend d'une
+   nuance. Dire à l'enseignant, en une phrase, que cette liste doit être validée par quelqu'un
+   qui maîtrise la matière. **Arrêt : attendre la validation**, il retire ou ajoute des
+   essentiels.
 3. **Rédiger** les questions, réponses et conseils des essentiels validés.
 4. **Injecter** dans `assets/gabarit-memo.tex`, puis vérifier (voir plus bas).
 
@@ -102,6 +114,9 @@ Copier et suivre :
   document, situation, schéma) : la question demande de traiter le cas, la réponse donne le
   résultat. Les cas des exemples sont absents des exercices du cours fourni : un cas déjà
   traité donne une réponse que l'élève a vue, au lieu de lui faire retrouver la méthode.
+  Les détails du cas sont ceux que la leçon relie à la notion : un détail ajouté pour faire
+  vivant (un symptôme, une circonstance) peut renvoyer à une autre notion et fausser la
+  réponse.
 - **Faire produire.** Sur un principe, la question demande de citer, de donner ou d'écrire :
   l'élève restitue, au lieu de répondre oui ou non avec une chance sur deux. « Cite les trois
   ordres de la société d'Ancien Régime », plutôt que « La société d'Ancien Régime est-elle
@@ -131,6 +146,12 @@ Copier et suivre :
   pas à pas : l'élève n'a plus rien à rappeler. Écrire le geste à faire : « Cherche d'abord le
   sujet du verbe. » Ton neutre, centré sur le geste, à la place des jugements (« Bravo »,
   « Facile »). Terminer souvent par une question de contrôle (« As-tu vérifié que… ? »).
+- **Conseil fidèle à la leçon** : un critère pour trier deux notions vient de leurs définitions
+  dans la leçon, jamais d'un indice inventé. *Exemple :* pour « météo ou climat ? », la durée
+  d'observation que donne la définition, plutôt que « Est-ce en été ou en hiver ? ». Avant de
+  garder un critère, l'essayer sur chaque exemple de la leçon : s'il en classe un seul de
+  travers, il est faux. Le conseil reste sur la notion de sa question, sans rappel d'une autre
+  partie du cours.
 - **Conseil concret, au niveau de l'élève** : un geste qu'un élève du niveau visé peut faire
   tout de suite, avec ses mots. *Exemple (6e) :* « Encadre le groupe par « c'est… qui » : si la
   phrase reste correcte, c'est le sujet. As-tu vérifié que le verbe s'accorde avec lui ? », plutôt que « Identifie le groupe
@@ -213,6 +234,8 @@ restent dans le chat.
    objectif au plus, ou un dépassement signalé ; une notion et un apport par ligne ; des
    questions qui font produire ; énumérations de noms seuls ; conseil qui donne le chemin,
    concret, au vocabulaire du niveau ; mot juste avec son cas limite ; exemples sur des cas
-   neufs par rapport au cours ; bandeaux mot pour mot ; notations de la discipline.
+   neufs par rapport au cours ; bandeaux mot pour mot ; notations de la discipline ; chaque
+   réponse et chaque conseil rattachables à une phrase de la leçon, sans mot ajouté ; chaque
+   critère de conseil essayé sur tous les exemples de la leçon.
 
 Dire à l'enseignant si la compilation a réussi et combien de pages compte la fiche.
