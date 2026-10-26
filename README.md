@@ -7,9 +7,9 @@ et blanc.
 
 Une skill est un ensemble de consignes écrites une fois, que Claude suit ensuite à chaque
 demande. Celle-ci vient de celle que j'utilise pour mes classes, adaptée pour fonctionner hors
-de mon propre espace de travail et dans toutes les matières. Je l'ai d'abord essayée sur des
-cours inventés, puis sur les cours réels de deux collègues, en SVT et en histoire-géographie.
-Ma collègue de SVT a relu les fiches et ses remarques m'ont fait corriger la skill.
+de mon propre espace de travail et dans toutes les matières. Je l'ai construite pour mes cours de
+mathématiques, puis je l'ai élargie à d'autres matières grâce aux cours et aux échanges avec une
+collègue de SVT et une collègue d'histoire-géographie.
 
 ## 1. Ce qu'il vous faut
 
