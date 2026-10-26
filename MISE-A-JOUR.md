@@ -52,6 +52,10 @@ ATTENTION, pas en ERREUR ; élision « Je suis capable d' » acceptée.
    de Raphaël) ;
    relecture finale étendue.
 
+11. Une seule skill, aussi pour les cours de maths de Raphaël (version 1.6, décision du
+   2026-10-26) : icônes de sa version de maths redessinées en TikZ dans le gabarit (livre, croix
+   et coche, question, cible, ampoule), jamais `fontawesome5` ; police `lmodern` imposée.
+
 ## Marche à suivre (à demander à Claude en une fois)
 
 1. Comparer la version de Raphaël et ce dossier ; reporter ses améliorations en gardant les

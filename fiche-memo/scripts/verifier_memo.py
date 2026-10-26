@@ -38,7 +38,9 @@ def verifier(chemin):
     if r"\frenchsetup{StandardItemLabels=true}" not in t:
         erreurs.append("réglage des puces absent du préambule : recopier le préambule du gabarit")
 
-    # Paquet de pictogrammes : alourdit l'installation (SKILL.md, « Pas d'icônes »).
+    # Paquet de pictogrammes : alourdit l'installation (SKILL.md, « Icônes » : TikZ du gabarit).
+    if r"\usepackage{lmodern}" not in t:
+        erreurs.append("police lmodern absente du préambule : recopier le préambule du gabarit")
     if re.search(r"fontawesome|\\fa[A-Z]", t):
         erreurs.append("icônes (fontawesome) : les retirer, elles alourdissent l'installation")
     n_xl = len(re.findall(r"\\begin\{xltabular\}", corps))

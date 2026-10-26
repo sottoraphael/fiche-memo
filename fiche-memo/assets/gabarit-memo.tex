@@ -1,6 +1,8 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+% Police vectorielle : sans elle, l'environnement peut sortir une police en image, floue à l'impression.
+\usepackage{lmodern}
 \usepackage[french]{babel}
 \usepackage{enumitem}
 % Puces pleines au premier niveau, vides au second : jamais de tiret, confondu avec un signe moins.
@@ -27,10 +29,25 @@
 }
 \renewcommand{\tabularxcolumn}[1]{m{#1}}
 
+% Icônes dessinées en TikZ : aucun paquet d'icônes à installer. Décor seulement.
+\newcommand{\iconeLivre}{\tikz[baseline=0pt,x=1em,y=1em]{%
+    \fill[orange!80!black] (0,0.05) -- (0.46,-0.03) -- (0.46,0.72) -- (0,0.8) -- cycle;
+    \fill[orange!80!black] (0.54,-0.03) -- (1,0.05) -- (1,0.8) -- (0.54,0.72) -- cycle;}}
+\newcommand{\iconeQuestion}{\tikz[baseline=-0.3em]{%
+    \node[circle,fill=blue!70!black,text=white,inner sep=0pt,minimum size=1em,font=\bfseries\scriptsize]{?};}}
+\newcommand{\iconeCible}{\tikz[baseline=-0.3em]{%
+    \draw[red!70!black,line width=0.11em] (0,0) circle (0.4em);
+    \fill[red!70!black] (0,0) circle (0.15em);}}
+\newcommand{\iconeAmpoule}{\tikz[baseline=0pt,x=1em,y=1em]{%
+    \fill[orange!90!black] (0.3,0.52) circle (0.28);
+    \fill[orange!90!black] (0.19,0.14) rectangle (0.41,0.32);
+    \fill[gray!60!black] (0.2,0) rectangle (0.4,0.1);}}
+\newcommand{\iconesEval}{\textcolor{red}{$\boldsymbol{\times}$}/\textcolor{green!60!black}{$\checkmark$}}
+
 \begin{document}
 
 \begin{center}
-    \LARGE \textbf{FICHE MÉMO}\\[0.5em]
+    \LARGE \textbf{\iconeLivre \quad FICHE MÉMO}\\[0.5em]
     \large \textbf{{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}}
 \end{center}
 
@@ -43,10 +60,10 @@
     \begin{xltabular}{\dimexpr\textwidth-5pt\relax}{|m{2cm}|X|X|X|}
         \hline
         \rowcolor{gray!10}
-        \centering \scriptsize \textbf{Auto-évaluation} &
-        \centering \textbf{Question} &
-        \centering \textbf{Réponse} &
-        \centering \textbf{Stratégie / Conseil} \arraybackslash \\
+        \centering \scriptsize \textbf{\iconesEval{} Auto-évaluation} &
+        \centering \textbf{\iconeQuestion{} Question} &
+        \centering \textbf{\iconeCible{} Réponse} &
+        \centering \textbf{\iconeAmpoule{} Stratégie / Conseil} \arraybackslash \\
         \hline
         \endhead
 

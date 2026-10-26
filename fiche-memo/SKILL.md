@@ -232,14 +232,18 @@ restent dans le chat.
 - **Guillemets** en notation ASCII (deux apostrophes inversées, deux apostrophes droites) : les
   caractères « » et `\og{}`/`\fg{}` rendent des glyphes parasites sans erreur de compilation.
 - **Euro** : `\texteuro{}`, jamais `\euro{}` ni `eurosym`.
-- **Pas d'icônes** : ni `fontawesome5` ni autre paquet de pictogrammes, qui alourdiraient
-  l'installation ; la fiche est imprimée en noir et blanc.
+- **Icônes** : celles du gabarit, dessinées en TikZ (`\iconeLivre`, `\iconesEval`,
+  `\iconeQuestion`, `\iconeCible`, `\iconeAmpoule`), à garder telles quelles ; jamais
+  `fontawesome5` ni autre paquet de pictogrammes, qui alourdiraient l'installation. Elles
+  décorent seulement : aucune information ne passe par elles (impression en noir et blanc).
+- **Police** : garder `\usepackage{lmodern}` du gabarit ; sans lui, l'environnement peut sortir
+  une police en image, floue à l'impression.
 
 ## Vérification
 
 1. Lancer `python scripts/verifier_memo.py chemin/fichier.tex`, corriger, relancer jusqu'à ce
    qu'il ne signale plus d'erreur. Il contrôle guillemets, euro, marqueurs restants, tableau
-   `xltabular` unique avec `\endhead`, largeurs, absence de `\clearpage`, réglage des puces.
+   `xltabular` unique avec `\endhead`, largeurs, absence de `\clearpage`, réglage des puces, police du gabarit.
    Il n'a besoin d'aucun paquet Python. Il signale aussi, sans bloquer, une mention de couleur,
    un bandeau qui ne commence pas par
    « Je suis capable de » ou l'absence de bandeau : attendu quand l'enseignant a gardé sa forme
@@ -248,7 +252,7 @@ restent dans le chat.
 2. Compiler : `pdflatex -interaction=nonstopmode fichier.tex`. L'environnement peut repartir de
    zéro d'une session à l'autre : si `pdflatex` est absent, installer, avant la première
    compilation,
-   `apt-get update && apt-get install -y texlive-lang-french texlive-latex-extra poppler-utils`
+   `apt-get update && apt-get install -y texlive-lang-french texlive-latex-extra lmodern poppler-utils`
    (sans le `apt-get update`, l'installation échoue sur un environnement neuf ; `poppler-utils`
    fournit `pdfinfo` et `pdftoppm`). Si l'installation ou la compilation échoue, le dire,
    préciser que la compilation n'a pas été testée, donner le fichier `.tex` et la marche à suivre
