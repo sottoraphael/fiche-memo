@@ -1,8 +1,8 @@
 # Fiche mémo : une skill pour Claude
 
 Cette skill transforme la leçon d'un chapitre en fiche mémo, dans toute matière du collège et
-du lycée : un tableau de questions courtes, avec pour chacune la réponse, un conseil de méthode
-et six cases où l'élève note s'il a su répondre. La fiche sort en PDF, prête à imprimer en noir
+du lycée : un tableau de questions courtes, avec pour chacune la réponse et six cases où l'élève note
+s'il a su répondre, et, si vous le souhaitez, un conseil de méthode. La fiche sort en PDF, prête à imprimer en noir
 et blanc.
 
 Une skill est un ensemble de consignes écrites une fois, que Claude suit ensuite à chaque
@@ -41,6 +41,8 @@ Claude procède alors en plusieurs temps, et s'arrête pour vous demander votre 
   « Je retiens »…) ;
 - si le cours n'énonce pas d'objectifs, il vous demande si vous voulez des bandeaux
   d'objectif, et lesquels ;
+- il vous demande si vous voulez une colonne de conseils, utile surtout si vous connaissez les
+  erreurs fréquentes de vos élèves ;
 - il vous présente la liste des notions qu'il compte interroger : vous en retirez ou en
   ajoutez ;
 - il rédige les questions, fabrique le PDF et le vérifie.

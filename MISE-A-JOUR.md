@@ -56,6 +56,11 @@ ATTENTION, pas en ERREUR ; élision « Je suis capable d' » acceptée.
    2026-10-26) : icônes de sa version de maths redessinées en TikZ dans le gabarit (livre, croix
    et coche, question, cible, ampoule), jamais `fontawesome5` ; police `lmodern` imposée.
 
+12. Colonne Conseil facultative, absente par défaut (version 1.7, décision de Raphaël du
+   2026-10-26, après l'avis de la collègue de SVT et son essai en maths) : question à l'étape 0,
+   erreurs fréquentes demandées seulement si la colonne est retenue, tableau à trois colonnes
+   sinon.
+
 ## Marche à suivre (à demander à Claude en une fois)
 
 1. Comparer la version de Raphaël et ce dossier ; reporter ses améliorations en gardant les

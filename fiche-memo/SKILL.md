@@ -1,6 +1,6 @@
 ---
 name: "fiche-memo"
-description: "Transforme la leçon d'un chapitre du collège ou du lycée, dans toute matière, en fiche mémo de rappel actif en LaTeX : un tableau de questions courtes avec réponse, conseil de stratégie et cases d'auto-évaluation, par objectif si l'enseignant le souhaite. À utiliser quand l'enseignant demande une fiche mémo, une fiche de mémorisation, des questions de rappel ou un support de révision, ou veut transformer un cours en questions."
+description: "Transforme la leçon d'un chapitre du collège ou du lycée, dans toute matière, en fiche mémo de rappel actif en LaTeX : un tableau de questions courtes avec réponse et cases d'auto-évaluation, par objectif et avec une colonne de conseils si l'enseignant le souhaite. À utiliser quand l'enseignant demande une fiche mémo, une fiche de mémorisation, des questions de rappel ou un support de révision, ou veut transformer un cours en questions."
 ---
 
 # Fiche mémo
@@ -63,6 +63,9 @@ annuelle sert à situer ce qui a déjà été enseigné.
      garde un seul tableau, lignes dans l'ordre de la leçon.
    - *Le programme* : s'il n'est pas fourni, demander à l'enseignant s'il peut donner les
      extraits utiles, ou s'il préfère qu'on les cherche (voir « Sources et rigueur »).
+   - *La colonne Conseil* : facultative, absente par défaut. Demander s'il la veut, en
+     précisant qu'elle sert surtout s'il peut donner les erreurs fréquentes de ses élèves ;
+     sans réponse claire, pas de colonne.
    Ces questions partent dans un seul message, **numérotées, une réponse attendue pour
    chacune** ; une réponse qui ne dit pas à quelle question elle répond (« oui ») se fait
    préciser. **Arrêt : attendre sa réponse.**
@@ -83,21 +86,23 @@ annuelle sert à situer ce qui a déjà été enseigné.
    écarté, la source (ou la mention du cours) qui montre qu'il est déjà enseigné. Un essentiel
    de vocabulaire sans cas à montrer est signalé : l'enseignant tranche. Signaler aussi les
    points de la leçon qui paraissent imprécis et les questions dont la réponse dépend d'une
-   nuance. Lui demander aussi, en option, les erreurs que ses élèves font souvent sur ces
-   essentiels : elles nourrissent la colonne Conseil ; sans réponse, la fiche n'en écrit aucune.
+   nuance. Si la colonne Conseil est retenue, lui demander aussi les erreurs que ses élèves
+   font souvent sur ces essentiels : elles nourrissent la colonne ; sans réponse, la fiche n'en
+   écrit aucune.
    Dire à l'enseignant, en une phrase, que cette liste doit être validée par quelqu'un
    qui maîtrise la matière. **Arrêt : attendre la validation**, il retire ou ajoute des
    essentiels.
-3. **Rédiger** les questions, réponses et conseils des essentiels validés.
+3. **Rédiger** les questions et réponses des essentiels validés, et les conseils si la colonne
+   est retenue.
 4. **Injecter** dans `assets/gabarit-memo.tex`, puis vérifier (voir plus bas).
 
 Copier et suivre :
 
 ```
-- [ ] Leçon repérée, objectifs repris, proposés ou écartés avec l'enseignant
+- [ ] Leçon repérée, objectifs repris, proposés ou écartés, colonne Conseil choisie avec l'enseignant
 - [ ] Essentiels relevés, points déjà enseignés laissés à la leçon avec leur source
 - [ ] Liste validée par l'enseignant
-- [ ] Questions, réponses et conseils rédigés
+- [ ] Questions, réponses (et conseils si la colonne est retenue) rédigés
 - [ ] Script sans erreur, compilation, contrôle visuel, relecture finale
 ```
 
@@ -152,7 +157,7 @@ Copier et suivre :
 - **Situation nommée** : la question dit sur quoi l'élève est interrogé. « Dans quel cas
   emploie-t-on le prétérit ? », plutôt que « Que veut-on dire quand on emploie le prétérit ? »,
   qui fait deviner le registre de la réponse.
-- **Colonne « Stratégie / Conseil »**, dans cet ordre :
+- **Colonne « Stratégie / Conseil »**, seulement si l'enseignant l'a voulue, dans cet ordre :
   1. la méthode, le critère ou la procédure que donne la leçon (« Cherche d'abord le sujet du
      verbe. ») ;
   2. sinon, une erreur fréquente donnée par l'enseignant à l'étape 2 (« L'erreur classique est
@@ -215,7 +220,8 @@ Exemple de ligne :
 
 Partir de `assets/gabarit-memo.tex`, qui fait foi : remplacer les marqueurs `{{...}}`, répéter
 le bandeau d'objectif et la ligne de tableau autant que nécessaire. Sans bandeaux, supprimer
-le bloc du bandeau. En-tête : `{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}`, par exemple « 5e -
+le bloc du bandeau. Sans colonne Conseil : colonnes `|m{2cm}|X|X|`, en-tête et lignes sans leur
+dernière cellule, bandeau en `\multicolumn{3}{|c|}`. En-tête : `{{NIVEAU}} - {{CHAPITRE}} - {{TITRE}}`, par exemple « 5e -
 Chapitre 3 - Les compléments circonstanciels ». Le fichier contient uniquement le LaTeX ; les commentaires à l'enseignant
 restent dans le chat.
 - **Un seul tableau `xltabular` pour tout le chapitre**, bandeaux inclus : il se coupe entre
@@ -267,7 +273,7 @@ restent dans le chat.
    objectif au plus et 20 environ pour la fiche, ou un dépassement signalé ; une notion et un
    apport par ligne ; des questions qui font produire, sans élément manquant à retrouver ni
    adjectif isolé ; énumérations de noms seuls, avec la liste entière quand on en cite
-   quelques-uns ; conseil qui ne donne pas la réponse et dont le contrôle porte sur le contenu ;
+   quelques-uns ; si la colonne Conseil est retenue : conseil qui ne donne pas la réponse et dont le contrôle porte sur le contenu ;
    conseil pris dans l'ordre méthode, erreur donnée par l'enseignant, indice, case vide, sans
    renvoi au cours ni contrôle répété ; conseil qui donne le chemin, concret, au vocabulaire du niveau ; mot juste avec son cas limite ; exemples sur des cas
    neufs par rapport au cours ; bandeaux mot pour mot ; notations de la discipline ; chaque
